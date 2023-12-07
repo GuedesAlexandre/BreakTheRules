@@ -4,14 +4,11 @@ import Navbar from "./Navbar";
 
 const Acceuil = () => {
   return (
-    <div id="acueil">
-      <div id="sombre">
-        <Navbar />
-        <h1>
-          We want to <br />
-          change the rules
-        </h1>
-      </div>
+    <div id="Acueil">
+      <h1>
+        We want to <br />
+        change the rules
+      </h1>
     </div>
   );
 };
