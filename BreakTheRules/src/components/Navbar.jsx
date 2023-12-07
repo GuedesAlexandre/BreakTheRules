@@ -12,6 +12,7 @@ const Navbar = () => {
         <nav className="navbar">
             <div className='logo'><img src={logo} alt="Logo" /></div>
             <ul class="links">
+            <li>Home</li>
             <li>Jouer</li>
             <li>Projects</li>
        
