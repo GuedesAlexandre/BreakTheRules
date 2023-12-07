@@ -1,9 +1,9 @@
 
 
 import React from 'react';
-import './acceuil.css';
-import logo from './logo.svg';
-import Sea from './Sea.svg'
+import "../styles/acceuil.css";
+import logo from '../assets/Logo.svg';
+import Sea from '../assets/Sea.svg'
 
 const Navbar = () => {
     return (
@@ -12,10 +12,12 @@ const Navbar = () => {
         <nav className="navbar">
             <div className='logo'><img src={logo} alt="Logo" /></div>
             <ul class="links">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Jouer</li>
+            <li>Projects</li>
+       
+            <li>About us</li>
+
+            
             </ul>
             <div className='addons'>
             <button className="btn">Contact</button>
