@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+
+#acueil {
+  height: 100vh;
+  width: 100%;
+  background-image: url("BreakTheRules/src/assets/planet.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#acueil h1 {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 4rem;
+  text-align: center;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+  
+    align-items: center;
+}
+.links{
+    display: flex;
+    gap:15px;
+}
+.links li{
+    list-style: none;
+}
