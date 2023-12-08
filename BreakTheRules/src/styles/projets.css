@@ -1,0 +1,28 @@
+#project h1 {
+    color: #fff;
+    margin-top: 110px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .para-projet {
+    margin-top: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .para-projet p {
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 36px;
+    max-width: 771px;
+  }

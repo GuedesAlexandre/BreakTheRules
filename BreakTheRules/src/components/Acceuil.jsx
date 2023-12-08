@@ -3,25 +3,24 @@ import "../styles/acceuil.css";
 import Navbar from "./Navbar";
 import Card from "./card";
 import Planet from "../assets/Planet.png";
-import Mashallah from "./phrise";
-<<<<<<< HEAD
 import MenuMobile from "./MenuMobil";
+import Mashallah from "./phrise";
+import ChatBot from "./ChatBot";
+import '../styles/footer.css';
+import LogoNuit from '../assets/logo-nuit.png';
+
 
 const burgerOpen = () => {
   const Open = () => {
     document.querySelector(".menuMobile").style.transform = "translateX(-100%)";
   };
 };
-=======
-
->>>>>>> ee3369e (bien lourd ma partie)
 
 const Acceuil = () => {
   return (
     <>
       <MenuMobile />
 
-<<<<<<< HEAD
       <div id="Acueil">
         <Navbar />
         <div className="hash1">
@@ -72,11 +71,6 @@ const Acceuil = () => {
               notre environnement.
             </p>
           </div>
-=======
-   </div>
- <Mashallah/>
-   
->>>>>>> ee3369e (bien lourd ma partie)
 
           <div className="Box2">
             <p class="text2">
@@ -104,6 +98,218 @@ const Acceuil = () => {
           </div>
         </div>
       </div>
+      <Mashallah/>
+      <ChatBot />
+      <footer>
+      <p id="p1">Fait avec ❤️ par les Démeauxnétisés</p>
+      <div className="containfoot">
+        <h2>Notre équipe</h2>
+        <div className="equipe">
+          <div className="equipe1">
+            <p>
+              Alexandre GUEDES{' '}
+              <span className="thin">
+                <a
+                  href="https://www.linkedin.com/in/alexandre-guedesmmi/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>{' '}
+                <a href="https://github.com/GuedesAlexandre" target="_blank" rel="noopener noreferrer">
+                  Github
+                </a>{' '}
+              </span>
+              <br />
+              Rayane MASMOUDI{' '}
+              <span className="thin">
+                <a
+                  href="https://www.linkedin.com/in/rayane-masmoudi-9b5991180/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>
+              </span>
+              <br />
+              Karl ESTAYO{' '}
+              <span className="thin">
+                <a
+                  href="https://www.linkedin.com/in/karl-estayo-75ba34201/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>{' '}
+                <a href="https://GitHub.com/Karlitooo03" target="_blank" rel="noopener noreferrer">
+                  Github
+                </a>{' '}
+              </span>
+              <br />
+              Timothé HEGE{' '}
+              <span className="thin">
+                <a
+                  href="https://www.linkedin.com/in/hege-timoth%C3%A9-491341212/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>{' '}
+                <a href="https://GitHub.com/Fvrenn" target="_blank" rel="noopener noreferrer">
+                  Github
+                </a>{' '}
+              </span>
+              <br />
+              Arnaud ROYER{' '}
+              <span className="thin">
+                <a
+                  href="https://www.linkedin.com/in/royer-arnaud/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>{' '}
+                <a href="https://github.com/itsarnaud" target="_blank" rel="noopener noreferrer">
+                  Github
+                </a>{' '}
+              </span>
+              <br />
+              Steven LE CAM{' '}
+              <span className="thin">
+                <a
+                  href="https://www.linkedin.com/in/steven-le-cam/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>{' '}
+                <a href="https://github.com/Eartskip" target="_blank" rel="noopener noreferrer">
+                  Github
+                </a>{' '}
+              </span>
+              <br />
+              Glenn GUILLARD{' '}
+              <span className="thin">
+                <a
+                  href="https://www.linkedin.com/in/glenn-guillard-08204724a/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>{' '}
+                <a href="https://GitHub.com/glenn-guillard-mmi" target="_blank" rel="noopener noreferrer">
+                  Github
+                </a>{' '}
+              </span>
+            </p>
+          </div>
+          <div className="equipe2">
+            <p>
+              Orlane ESCAVI{' '}
+              <span className="thin">
+                <a
+                  href="https://www.linkedin.com/in/orlane-escavi-32270a203/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>{' '}
+                <a href="https://GitHub.com/Orlanescavi" target="_blank" rel="noopener noreferrer">
+                  Github
+                </a>{' '}
+              </span>
+              <br />
+              Edens BORGELIN DELICE{' '}
+              <span className="thin">
+                <a
+                  href="https://www.linkedin.com/in/edens-borgelin-delice-158b9a239/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>{' '}
+                <a href="https://github.com/Asefthukom7" target="_blank" rel="noopener noreferrer">
+                  Github
+                </a>{' '}
+              </span>
+              <br />
+              Hugo GONCALVES FERNANDES{' '}
+              <span className="thin">
+                <a
+                  href="https://www.linkedin.com/in/hugo-goncalves-fernandes-bb9701299/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>
+              </span>
+              <br />
+              Noah THIERY{' '}
+              <span className="thin">
+                <a
+                  href="https://www.linkedin.com/in/noah-thiery-3a720529a/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>
+              </span>
+              <br />
+              Ben-Ylane CHANRANI{' '}
+              <span className="thin">
+                <a
+                  href="https://www.linkedin.com/in/ben-yl%C3%A2ne-chanrani-01486629b/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>
+              </span>
+              <br />
+              Luxchan VASANTHAN{' '}
+              <span className="thin">
+                <a
+                  href="https://www.linkedin.com/in/luxchan-vasanthan-40a2222a0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>
+              </span>
+              <br />
+              Ibtissam CHTUOUI{' '}
+              <span className="thin">
+                <a
+                  href="https://www.linkedin.com/in/ibtissam-chtioui-0b72582a0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>
+              </span>
+              <br />
+              Ylan-tamta TCHUGOMTSEU{' '}
+              <span className="thin">
+                <a
+                  href="https://www.linkedin.com/in/ylan-tamta-tchugomtseu-5199aa299/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>
+              </span>
+            </p>
+          </div>
+          <div className="ligne"></div>
+          <div className="logoNDI">
+            <a href="https://www.nuitdelinfo.com/" target="_blank" rel="noopener noreferrer">
+              <img src={LogoNuit} alt="Logo Nuit De l'Info" id="NDI" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+     
     </>
   );
 };

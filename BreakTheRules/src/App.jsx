@@ -8,6 +8,7 @@ import Game3 from "./components/Game3";
 import Game4 from "./components/Game4";
 import Game5 from "./components/Game5";
 import Conclusion from "./components/Conclusion";
+import Projets from "./components/Projets";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route path="/Game4" element={<Game4/>}/>
             <Route path="/Game5" element={<Game5/>}/>
             <Route path="/Conclusion" element={<Conclusion/>}></Route>
+            <Route path="/Projets" element={<Projets/>}></Route>
 
             
           </Routes>

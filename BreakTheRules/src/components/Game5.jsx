@@ -43,9 +43,9 @@ const Game5 = () => {
                 {isAnswerValidated && (
                     <div>
                         {selectedDiv === correctDiv ? (
-                            <Link to="/Game2" className="next-question">Question suivante</Link>
+                            <Link to="/" className="next-question">Question suivante</Link>
                         ) : (
-                            <Link to="/Game2"><button className="next-question" onClick={handleValidationClick}>Question suivante</button></Link>
+                            <Link to="/"><button className="next-question" onClick={handleValidationClick}>Question suivante</button></Link>
                         )}
                     </div>
                 )}
